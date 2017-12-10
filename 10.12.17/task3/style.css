@@ -1,0 +1,61 @@
+body, header, main ,div ,aside ,h2 ,ul, li ,a, footer{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #4C2A2A;
+}
+#wrap{
+	width: 90%;
+	background-color: #F79517;
+	margin-left: 5%;
+	position: relative;
+	height: 1000px;
+}
+#wrap .container{
+	width: 67%;
+	background-color: #0AD82C;
+	position: absolute;
+	left: 32.5%;
+}
+aside{
+	width: 30%;
+	background-color: #F5B60B;
+	position: absolute;
+	height: 893px;
+	
+}
+#wrap main .container{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: #07F3F6;   
+    height: 750px;
+}
+header{
+	text-align:center;
+	padding: 60px 0;
+	background-color: #0CC1EE;
+
+}
+main{
+	background-color: #F86DF0;
+	margin-top: 10px;
+}
+section{
+	width: 48%;
+	background-color: #F7EE05;
+}
+section#second{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+footer{
+	position: absolute;
+	top: 910px;
+	background-color: #0B0BF0;
+	padding: 40px 0;
+	text-align: center;
+	width: 100%;
+}
